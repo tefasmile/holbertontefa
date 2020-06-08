@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+/**fonts-icons**/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:white;
+    list-style: none;
+}
+
+section{
+    top:0px;right:0px;bottom:0px;left:0px;
+    height: 100%;
+    width: 100%;
+    padding-top:60px;
+    border-bottom:1px dotted #D5D5D5;
+    padding-bottom:40px;
+}
+
+h1{
+    font-weight:200;
+}
+
+header{
+    background-color:#4400e2;
+    height:60px;
+    position:fixed;
+    width:100%;
+    overflow:hidden;
+}
+
+.menu a > li {
+    padding: .2em;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul > li{
+    padding: 5px;
+    color: white;
+    list-style: none;
+}
+
+img{
+    padding: 0.1em;
+}
+
+footer{
+    background-color: rgb(81, 253, 167);
+}
+
+footer > p {
+    text-align: center;
+}
+
+#logo_footer{
+    text-align: center;
+}
+
+.wrap{
+    max-width:760px;
+    margin:auto;
+    padding-left:5px;
+    padding-right:5px; 
+}
+
+/***css de navheader***/
+.wrapone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 0.5em;
+}
+
+.menu{
+    padding-right: 1.5em;
+}
+
+header ul a:hover{
+    background-color:#88b2be ;
+    border-radius:5px;
+    padding:10px 20px 10px 20px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+/***css galeria***/
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#hello{
+    font-weight:400;
+    font-size: arial;
+}
+
+#hello p{
+    width:80%;
+    font-weight:400;
+}
+
+/**skills**/
+#skills{
+    clear:both;
+    min-height:500px;
+  }
+  
+  #skills ul{
+    /*background-color:green;*/
+      text-align:left;
+      margin-left:-40px;
+  }
+  
+  #skills li{
+    font-size:40px;
+    padding:20px;
+    list-style:none;
+    /*background-color:red;*/
+    color:#D3D3D3;
+    text-align:center;
+    
+    -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  
+    
+  }
+  
+  #skills li:hover{
+    color:#94c2cf;
+    cursor:pointer;
+    
+    -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  
+    
+  }
+  
+  .col-group{
+    display: flex;
+    
+  }
+  
+  
+  .col-group > div {
+    padding: 0.5em 0.5em 0;
+    width: 30%;
+  }
+
+
+/**Styles of aboutme**/
+.me {
+    display: block;
+    margin: 2em auto;
+    margin-bottom: 2em;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  #about ul{
+    /*background-color:green;*/
+      text-align:center;
+      margin-left:-40px;
+  }
+  
+  #about ul li{
+    font-size:50px;
+    list-style:none;
+    /*background-color:red;*/
+    display:inline;
+    color:#cccccc;
+    
+    -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  
+    
+  }
+  
+  #about ul li:hover{
+    color:#94c2cf;
+    cursor:pointer;
+    
+    -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; 
+  }
+
+
+  /* responsive */
+  @media only screen and (max-width: 600px) {
+
+    body{
+        background-color: #4400e2;
+    }
+
+    .col-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .col-group > div {
+      width: 30%;
+    }
+
+  
+  }
